@@ -1,10 +1,21 @@
-image {
-    height:100%;
-    object-fit: contain;
-}
-
 .row {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -15px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 15px;
+}
+
+img {
+    width:100%;
+    object-fit: contain;
+}
+
+.movie-box {
+    padding: 10px;
+    border: 1px solid #565656;
+    border-radius: 7px
 }

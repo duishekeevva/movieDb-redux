@@ -1,3 +1,6 @@
 export const GET_MOVIE='GET_MOVIE';
 export const GET_MOVIE_ID='GET_MOVIE_ID';
 export const SEARCH_MOVIE='SEARCH_MOVIE';
+export const GET_ACTORS='GET_ACTORS';
+export const GET_TRAILER='GET_TRAILER';
+export const GET_MOVIES_BY_ACTOR='GET_MOVIES_BY_ACTOR'

@@ -1,0 +1,28 @@
+.row {
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 -15px
+}
+
+.col-6 {
+    width: 50%;
+    padding: 15px;
+}
+
+.col-2 {
+    width: 12.5%;
+    padding: 10px;
+    & h5 {
+        font-size: 12px;
+    }
+    & p {
+        font-size: 10px;
+        font-weight: 400;
+        color: #5e5c5c;
+    }
+}
+
+.actors-img {
+    width: 100%;
+    object-fit: contain;
+}

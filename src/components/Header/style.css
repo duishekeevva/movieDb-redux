@@ -1,0 +1,25 @@
+
+header {
+    background-color:#0d253f;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+.logo-img {
+    width: 150px;
+}
